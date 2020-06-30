@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 600px;
+    margin: auto;
+    margin-top: 40px;
+    padding: 10px;
+    border: 2px double blueviolet;
+
+}
+
+.description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+}
+
+button {
+    background-color: blueviolet;
+    padding: 5px;
+    color: white;
+    margin-right: 20px;
+}
+
+.section_image {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
