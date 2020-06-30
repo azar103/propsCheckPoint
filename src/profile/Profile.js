@@ -8,7 +8,7 @@ const Profile =(props) => (
         <button  onClick={() => props.clickHandler(props.fullName)}> Get My Name</button>
         </div>
         <div className="description">
-          <h2>{props.fullName}</h2>
+          <h2 style={{fontFamily:"Yellowtail"}}>{props.fullName}</h2>
           <p style={{fontSize: 14, fontStyle:'italic'}}>{props.profession}</p>
           <p>{props.bio}</p>
         </div>
